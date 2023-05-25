@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#switch-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+#switch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 120px;
+  width: 300px;
+  background-color: rgb(150, 0, 150);
+  /* border: 0.3em solid rgb(88, 0, 88); */
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+#switch-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: .5rem;
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.137);
+  /* transform: translate(200%, 0); */
+  /* animation: change 5s infinite 1s; */
+}
+
+#night {
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+
+#moon {
+  width: 50%;
+}
+
+/* @keyframes changeDay {
+  from {left: 0%;}
+  to {left: 100%;}
+}
+
+@keyframes changeNight {
+  from {left: 200px;}
+  to {left: 0px;}
+} */
